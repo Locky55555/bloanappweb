@@ -1,0 +1,1214 @@
+[Mon 09/15/2025 15:33:30.45] Starting OLoan Payment System (Auto-Startup)... 
+[Mon 09/15/2025 15:34:00.16] Starting Docker Desktop... 
+[Mon 09/15/2025 15:34:10.41] Docker is ready. Starting containers... 
+time="2025-09-15T15:34:10+07:00" level=warning msg="D:\\Odee-Link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+#1 [internal] load local bake definitions
+#1 reading from stdin 522B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 315B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:18-alpine
+#3 ...
+
+#4 [auth] library/node:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:18-alpine
+#3 DONE 2.5s
+
+#5 [internal] load .dockerignore
+#5 transferring context: 2B done
+#5 DONE 0.0s
+
+#6 [1/6] FROM docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e
+#6 resolve docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e 0.0s done
+#6 DONE 0.0s
+
+#7 [internal] load build context
+#7 transferring context: 1.55MB 1.2s done
+#7 DONE 1.3s
+
+#8 [2/6] WORKDIR /app
+#8 CACHED
+
+#9 [3/6] COPY package*.json ./
+#9 CACHED
+
+#10 [4/6] RUN npm ci --only=production
+#10 CACHED
+
+#11 [5/6] COPY . .
+#11 DONE 9.5s
+
+#12 [6/6] RUN npm run build
+#12 0.858 
+#12 0.858 > oloan-payment-system@0.1.0 build
+#12 0.858 > next build
+#12 0.858 
+#12 1.936  ⚠ Invalid next.config.js options detected: 
+#12 1.937  ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+#12 1.937  ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+#12 1.958 Attention: Next.js now collects completely anonymous telemetry regarding usage.
+#12 1.958 This information is used to shape Next.js' roadmap and prioritize features.
+#12 1.958 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+#12 1.958 https://nextjs.org/telemetry
+#12 1.958 
+#12 2.064   ▲ Next.js 14.2.5
+#12 2.064 
+#12 2.225    Creating an optimized production build ...
+failed to execute bake: exit status 0xc000013a
+[Tue 09/16/2025 12:44:12.85] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Tue 09/16/2025 12:44:12.88 
+==================== 
+[Tue 09/16/2025 13:13:50.69] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Tue 09/16/2025 13:13:50.72 
+==================== 
+[Tue 09/16/2025 13:14:20.14] Starting Docker Desktop... 
+[Tue 09/16/2025 13:20:36.43] Docker failed to start. Using development mode... 
+[Tue 09/16/2025 13:20:36.44] Starting development server... 
+
+> oloan-payment-system@0.1.0 dev
+> next dev
+
+ ⚠ Port 4000 is in use, trying 4000 instead.
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:4000
+
+ ✓ Starting...
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 2.2s
+[Tue 09/16/2025 13:23:32.40] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Tue 09/16/2025 13:23:32.45 
+==================== 
+[Tue 09/16/2025 13:24:02.13] Starting Docker Desktop... 
+[Tue 09/16/2025 13:24:14.08] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Tue 09/16/2025 13:24:14.10 
+==================== 
+[Tue 09/16/2025 13:24:44.21] Starting Docker Desktop... 
+[Tue 09/16/2025 13:25:47.17] Docker is ready. Starting containers... 
+Checking Docker Desktop... 
+[Tue 09/16/2025 13:25:47.30] Docker is ready. Starting containers... 
+Checking Docker Desktop... 
+Docker Desktop already running 
+Starting containers... 
+time="2025-09-16T13:25:48+07:00" level=warning msg="D:\\Odee-Link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+#1 [internal] load local bake definitions
+#1 reading from stdin 522B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 315B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:18-alpine
+#3 ...
+
+#4 [auth] library/node:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:18-alpine
+#3 DONE 2.3s
+
+#5 [internal] load .dockerignore
+#5 transferring context: 2B done
+#5 DONE 0.0s
+
+#6 [1/6] FROM docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e
+#6 resolve docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e 0.0s done
+#6 DONE 0.0s
+
+#7 [internal] load build context
+#7 transferring context: 16.95MB 1.8s done
+#7 DONE 2.1s
+
+#8 [3/6] COPY package*.json ./
+#8 CACHED
+
+#9 [2/6] WORKDIR /app
+#9 CACHED
+
+#10 [4/6] RUN npm ci --only=production
+#10 CACHED
+
+#11 [5/6] COPY . .
+#11 DONE 15.6s
+
+#12 [6/6] RUN npm run build
+#12 0.611 
+#12 0.611 > oloan-payment-system@0.1.0 build
+#12 0.611 > next build
+#12 0.611 
+#12 1.389  ⚠ Invalid next.config.js options detected: 
+#12 1.389  ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+#12 1.389  ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+#12 1.401 Attention: Next.js now collects completely anonymous telemetry regarding usage.
+#12 1.401 This information is used to shape Next.js' roadmap and prioritize features.
+#12 1.401 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+#12 1.401 https://nextjs.org/telemetry
+#12 1.401 
+#12 1.468   ▲ Next.js 14.2.5
+#12 1.468 
+#12 1.551    Creating an optimized production build ...
+#12 14.17  ✓ Compiled successfully
+#12 14.17    Linting and checking validity of types ...
+#12 18.21    Collecting page data ...
+#12 19.47    Generating static pages (0/6) ...
+#12 20.08    Generating static pages (1/6) 
+#12 20.08    Generating static pages (2/6) 
+#12 20.08    Generating static pages (4/6) 
+#12 20.08  ✓ Generating static pages (6/6)
+#12 20.64    Finalizing page optimization ...
+#12 20.64    Collecting build traces ...
+#12 25.68 
+#12 25.70 Route (app)                              Size     First Load JS
+#12 25.70 ┌ ○ /                                    6.95 kB          94 kB
+#12 25.70 ├ ○ /_not-found                          871 B          87.9 kB
+#12 25.70 ├ ○ /adminLoan                           1.96 kB          89 kB
+#12 25.70 ├ ƒ /api/bills                           0 B                0 B
+#12 25.70 ├ ƒ /api/bills/[id]                      0 B                0 B
+#12 25.70 └ ƒ /customer/[id]                       13.3 kB         100 kB
+#12 25.70 + First Load JS shared by all            87.1 kB
+#12 25.70   ├ chunks/23-0c40d6df9b62e9bb.js        31.5 kB
+#12 25.70   ├ chunks/fd9d1056-62aaf4b921c84028.js  53.6 kB
+#12 25.70   └ other shared chunks (total)          1.89 kB
+#12 25.70 
+#12 25.70 
+#12 25.70 ○  (Static)   prerendered as static content
+#12 25.70 ƒ  (Dynamic)  server-rendered on demand
+#12 25.70 
+#12 DONE 25.8s
+
+#13 exporting to image
+#13 exporting layers
+#13 exporting layers 11.1s done
+#13 exporting manifest sha256:4c1a2e536933c31266e2be9a355b8da205b1819c2bf44199703664b9eaf710f1 0.0s done
+#13 exporting config sha256:9f0adbea08e7cf60a900abd02753fe7246118c9110c54e768f671e22701845a6 0.0s done
+#13 exporting attestation manifest sha256:c03ef4299dd775943ff4705ea39ba58224ea2851a43423d4cff10e088a4ca273 0.0s done
+#13 exporting manifest list sha256:927baf4a5175ccc1c956c3f70eedfc472703de6cb4edd6e595fa4fd2d5d885fd 0.0s done
+#13 naming to docker.io/library/oloanappweblocal-app:latest
+#13 naming to docker.io/library/oloanappweblocal-app:latest done
+#13 unpacking to docker.io/library/oloanappweblocal-app:latest
+#13 unpacking to docker.io/library/oloanappweblocal-app:latest 5.9s done
+#13 DONE 17.1s
+
+#14 resolving provenance for metadata file
+#14 DONE 0.0s
+ oloanappweblocal-app  Built
+ Container oloanappweblocal-postgres-1  Running
+ Container oloanappweblocal-app-1  Recreate
+ Container oloanappweblocal-app-1  Recreated
+ Container oloanappweblocal-app-1  Starting
+Error response from daemon: ports are not available: exposing port TCP 0.0.0.0:4000 -> 127.0.0.1:0: listen tcp 0.0.0.0:4000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+Waiting for application to be ready... 
+time="2025-09-16T13:27:16+07:00" level=warning msg="D:\\Odee-Link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+NAME                          IMAGE         COMMAND                  SERVICE    CREATED        STATUS              PORTS
+oloanappweblocal-postgres-1   postgres:15   "docker-entrypoint.s…"   postgres   23 hours ago   Up About a minute   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
+[Tue 09/16/2025 13:27:16.30] Docker containers started successfully 
+[Tue 09/16/2025 13:27:16.31] Starting Cloudflare Tunnel... 
+[Tue 09/16/2025 13:27:16.33] OLoan Payment System startup complete! 
+[Tue 09/16/2025 13:27:16.33] Local: http://localhost:4000 
+[Tue 09/16/2025 13:27:16.34] Public: https://oloan-payment.trycloudflare.com 
+[Wed 09/17/2025 12:36:15.59] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Wed 09/17/2025 12:36:15.61 
+==================== 
+[Wed 09/17/2025 12:36:37.49] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Wed 09/17/2025 12:36:37.51 
+==================== 
+[Wed 09/17/2025 12:36:45.19] Starting Docker Desktop... 
+[Wed 09/17/2025 12:42:59.42] Docker failed to start. Using development mode... 
+[Wed 09/17/2025 12:42:59.42] Starting development server... 
+
+> oloan-payment-system@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:4000
+
+ ✓ Starting...
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Ready in 2s
+[Thu 09/18/2025 12:32:25.54] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Thu 09/18/2025 12:32:25.54 
+==================== 
+[Thu 09/18/2025 12:32:55.15] Starting Docker Desktop... 
+[Thu 09/18/2025 12:33:13.09] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Thu 09/18/2025 12:33:13.11 
+==================== 
+[Thu 09/18/2025 12:33:43.21] Starting Docker Desktop... 
+[Thu 09/18/2025 12:39:16.10] Docker failed to start. Using development mode... 
+[Thu 09/18/2025 12:39:16.10] Starting development server... 
+
+> oloan-payment-system@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:4000
+
+ ✓ Starting...
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Ready in 8.4s
+[Fri 10/03/2025 19:35:40.72] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Fri 10/03/2025 19:35:41.59 
+==================== 
+[Fri 10/03/2025 19:36:12.24] Starting Docker Desktop... 
+[Fri 10/03/2025 19:36:32.30] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Fri 10/03/2025 19:36:32.34 
+==================== 
+[Fri 10/03/2025 19:37:02.12] Starting Docker Desktop... 
+[Fri 10/03/2025 19:39:13.98] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Fri 10/03/2025 19:39:15.31 
+==================== 
+[Fri 10/03/2025 19:39:45.21] Starting Docker Desktop... 
+[Fri 10/03/2025 19:40:00.21] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Fri 10/03/2025 19:40:00.28 
+==================== 
+[Fri 10/03/2025 19:40:30.19] Starting Docker Desktop... 
+[Fri 10/03/2025 19:45:37.94] Docker failed to start. Using development mode... 
+[Fri 10/03/2025 19:45:37.94] Starting development server... 
+
+> oloan-payment-system@0.1.0 dev
+> next dev
+
+ ⚠ Port 4000 is in use, trying 4000 instead.
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:4000
+
+ ✓ Starting...
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Ready in 8s
+[Fri 10/03/2025 19:49:06.37] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Fri 10/03/2025 19:49:06.55 
+==================== 
+[Fri 10/03/2025 19:49:37.20] Starting Docker Desktop... 
+[Fri 10/03/2025 19:49:54.41] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Fri 10/03/2025 19:49:54.44 
+==================== 
+[Fri 10/03/2025 19:50:24.13] Starting Docker Desktop... 
+[Fri 10/03/2025 19:55:53.40] Docker failed to start. Using development mode... 
+[Fri 10/03/2025 19:55:53.40] Starting development server... 
+
+> oloan-payment-system@0.1.0 dev
+> next dev
+
+ ⚠ Port 4000 is in use, trying 4000 instead.
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:4000
+
+ ✓ Starting...
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Ready in 2.5s
+[Fri 10/03/2025 21:25:44.56] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Fri 10/03/2025 21:25:44.57 
+==================== 
+[Fri 10/03/2025 21:26:14.22] Starting Docker Desktop... 
+[Fri 10/03/2025 21:26:34.08] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Fri 10/03/2025 21:26:34.09 
+==================== 
+[Fri 10/03/2025 21:27:04.17] Starting Docker Desktop... 
+[Fri 10/03/2025 21:28:26.74] Docker is ready. Starting containers... 
+Checking Docker Desktop... 
+[Fri 10/03/2025 21:28:26.83] Docker is ready. Starting containers... 
+Checking Docker Desktop... 
+Docker Desktop already running 
+Starting containers... 
+time="2025-10-03T21:28:27+07:00" level=warning msg="D:\\Odee-Link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+#1 [internal] load local bake definitions
+#1 reading from stdin 522B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 315B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:18-alpine
+#3 ...
+
+#4 [auth] library/node:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:18-alpine
+#3 DONE 3.0s
+
+#5 [internal] load .dockerignore
+#5 transferring context: 2B done
+#5 DONE 0.0s
+
+#6 [1/6] FROM docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e
+#6 resolve docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e 0.0s done
+#6 DONE 0.0s
+
+#7 [internal] load build context
+#7 transferring context: 1.74MB 1.5s done
+#7 DONE 1.9s
+
+#8 [2/6] WORKDIR /app
+#8 CACHED
+
+#9 [3/6] COPY package*.json ./
+#9 CACHED
+
+#10 [4/6] RUN npm ci --only=production
+#10 CACHED
+
+#11 [5/6] COPY . .
+#11 DONE 10.7s
+
+#12 [6/6] RUN npm run build
+#12 0.556 
+#12 0.556 > oloan-payment-system@0.1.0 build
+#12 0.556 > next build
+#12 0.556 
+#12 1.250  ⚠ Invalid next.config.js options detected: 
+#12 1.250  ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+#12 1.250  ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+#12 1.262 Attention: Next.js now collects completely anonymous telemetry regarding usage.
+#12 1.262 This information is used to shape Next.js' roadmap and prioritize features.
+#12 1.262 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+#12 1.262 https://nextjs.org/telemetry
+#12 1.262 
+#12 1.329   ▲ Next.js 14.2.5
+#12 1.329 
+#12 1.408    Creating an optimized production build ...
+#12 12.35  ✓ Compiled successfully
+#12 12.35    Linting and checking validity of types ...
+#12 15.21    Collecting page data ...
+#12 16.25    Generating static pages (0/6) ...
+#12 16.69    Generating static pages (1/6) 
+#12 16.82    Generating static pages (2/6) 
+#12 16.82    Generating static pages (4/6) 
+#12 16.82  ✓ Generating static pages (6/6)
+#12 17.22    Finalizing page optimization ...
+#12 17.22    Collecting build traces ...
+#12 21.60 
+#12 21.61 Route (app)                              Size     First Load JS
+#12 21.61 ┌ ○ /                                    6.95 kB          94 kB
+#12 21.61 ├ ○ /_not-found                          871 B          87.9 kB
+#12 21.61 ├ ○ /adminLoan                           1.96 kB          89 kB
+#12 21.61 ├ ƒ /api/bills                           0 B                0 B
+#12 21.61 ├ ƒ /api/bills/[id]                      0 B                0 B
+#12 21.61 └ ƒ /customer/[id]                       13.3 kB         100 kB
+#12 21.61 + First Load JS shared by all            87.1 kB
+#12 21.61   ├ chunks/23-0c40d6df9b62e9bb.js        31.5 kB
+#12 21.61   ├ chunks/fd9d1056-62aaf4b921c84028.js  53.6 kB
+#12 21.61   └ other shared chunks (total)          1.89 kB
+#12 21.61 
+#12 21.61 
+#12 21.61 ○  (Static)   prerendered as static content
+#12 21.61 ƒ  (Dynamic)  server-rendered on demand
+#12 21.61 
+#12 DONE 21.8s
+
+#13 exporting to image
+#13 exporting layers
+#13 exporting layers 10.9s done
+#13 exporting manifest sha256:e8660f14113d48dcf5b3d9d3fd82c70d2297d254be57d54fca8c17c696a2c207 0.0s done
+#13 exporting config sha256:84c69ff611126b1d4599874cf0e09f89ff04ee6107f10400fcac5a7dbbac5d4f 0.0s done
+#13 exporting attestation manifest sha256:8cce79906e9bc9da4c5c7a9984fa5b684076bf9debd0365c03db61b9c4b76e29 0.0s done
+#13 exporting manifest list sha256:18bd5105364c2c0a532e585ad0db4052bc7f1c9db983cbe666f558c7d1fa0a70 0.0s done
+#13 naming to docker.io/library/oloanappweblocal-app:latest
+#13 naming to docker.io/library/oloanappweblocal-app:latest done
+#13 unpacking to docker.io/library/oloanappweblocal-app:latest
+#13 unpacking to docker.io/library/oloanappweblocal-app:latest 6.6s done
+#13 DONE 17.6s
+
+#14 resolving provenance for metadata file
+#14 DONE 0.3s
+ oloanappweblocal-app  Built
+ Container oloanappweblocal-postgres-1  Running
+ Container oloanappweblocal-app-1  Recreate
+ Container oloanappweblocal-app-1  Recreated
+ Container oloanappweblocal-app-1  Starting
+Error response from daemon: ports are not available: exposing port TCP 0.0.0.0:4000 -> 127.0.0.1:0: listen tcp 0.0.0.0:4000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+Waiting for application to be ready... 
+time="2025-10-03T21:29:46+07:00" level=warning msg="D:\\Odee-Link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+NAME                          IMAGE         COMMAND                  SERVICE    CREATED         STATUS              PORTS
+oloanappweblocal-postgres-1   postgres:15   "docker-entrypoint.s…"   postgres   5 minutes ago   Up About a minute   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
+[Fri 10/03/2025 21:29:46.29] Docker containers started successfully 
+[Fri 10/03/2025 21:29:46.30] Starting Cloudflare Tunnel... 
+[Fri 10/03/2025 21:29:46.31] OLoan Payment System startup complete! 
+[Fri 10/03/2025 21:29:46.32] Local: http://localhost:4000 
+[Fri 10/03/2025 21:29:46.33] Public: https://oloan-payment.trycloudflare.com 
+[Mon 10/13/2025 15:17:04.97] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Mon 10/13/2025 15:17:04.97 
+==================== 
+[Mon 10/13/2025 15:17:34.19] Starting Docker Desktop... 
+[Mon 10/13/2025 15:17:57.49] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Mon 10/13/2025 15:17:57.53 
+==================== 
+[Mon 10/13/2025 15:18:27.14] Starting Docker Desktop... 
+[Mon 10/13/2025 15:23:44.45] Docker failed to start. Using development mode... 
+[Mon 10/13/2025 15:23:44.52] Starting development server... 
+
+> oloan-payment-system@0.1.0 dev
+> next dev
+
+ ⚠ Port 4000 is in use, trying 4000 instead.
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:4000
+
+ ✓ Starting...
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Ready in 1986ms
+[Mon 10/13/2025 16:01:57.75] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Mon 10/13/2025 16:01:57.77 
+==================== 
+[Mon 10/13/2025 16:02:27.18] Docker Desktop not found. Starting development mode... 
+[Mon 10/13/2025 16:02:27.19] Starting development server... 
+
+> oloan-payment-system@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:4000
+
+ ✓ Starting...
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Ready in 7.4s
+[Mon 10/13/2025 16:31:44.60] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Mon 10/13/2025 16:31:44.68 
+==================== 
+[Mon 10/13/2025 16:32:15.49] Starting Docker Desktop... 
+[Mon 10/13/2025 16:32:59.10] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Mon 10/13/2025 16:32:59.14 
+==================== 
+[Mon 10/13/2025 16:33:29.21] Starting Docker Desktop... 
+[Mon 10/13/2025 16:38:56.76] Docker failed to start. Using development mode... 
+[Mon 10/13/2025 16:38:56.76] Starting development server... 
+
+> oloan-payment-system@0.1.0 dev
+> next dev
+
+ ⚠ Port 4000 is in use, trying 4000 instead.
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:4000
+
+ ✓ Starting...
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Ready in 2.8s
+[Mon 10/13/2025 17:11:52.23] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Mon 10/13/2025 17:11:52.26 
+==================== 
+[Mon 10/13/2025 17:12:22.12] Starting Docker Desktop... 
+[Mon 10/13/2025 17:12:32.45] Docker is ready. Starting containers... 
+Checking Docker Desktop... 
+Docker Desktop already running 
+Starting containers... 
+time="2025-10-13T17:12:32+07:00" level=warning msg="D:\\Odee-Link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+#1 [internal] load local bake definitions
+#1 reading from stdin 522B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 315B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:18-alpine
+#3 ERROR: failed to do request: Head "https://registry-1.docker.io/v2/library/node/manifests/18-alpine": dialing registry-1.docker.io:443 container via direct connection because static system has no HTTPS proxy: connecting to registry-1.docker.io:443: dial tcp: lookup registry-1.docker.io: no such host
+------
+ > [internal] load metadata for docker.io/library/node:18-alpine:
+------
+Dockerfile:1
+
+--------------------
+
+   1 | >>> FROM node:18-alpine
+
+   2 |     
+
+   3 |     WORKDIR /app
+
+--------------------
+
+failed to solve: node:18-alpine: failed to resolve source metadata for docker.io/library/node:18-alpine: failed to do request: Head "https://registry-1.docker.io/v2/library/node/manifests/18-alpine": dialing registry-1.docker.io:443 container via direct connection because static system has no HTTPS proxy: connecting to registry-1.docker.io:443: dial tcp: lookup registry-1.docker.io: no such host
+
+
+
+View build details: docker-desktop://dashboard/build/default/default/blreyxvkqaj6mlkn953teg0td
+
+Waiting for application to be ready... 
+time="2025-10-13T17:12:48+07:00" level=warning msg="D:\\Odee-Link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+NAME                          IMAGE         COMMAND                  SERVICE    CREATED          STATUS          PORTS
+oloanappweblocal-postgres-1   postgres:15   "docker-entrypoint.s…"   postgres   27 minutes ago   Up 39 seconds   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
+[Mon 10/13/2025 17:12:48.34] Docker containers started successfully 
+[Mon 10/13/2025 17:12:48.36] Starting Cloudflare Tunnel... 
+[Mon 10/13/2025 17:12:48.39] OLoan Payment System startup complete! 
+[Mon 10/13/2025 17:12:48.39] Local: http://localhost:4000 
+[Mon 10/13/2025 17:12:48.42] Public: https://oloan-payment.trycloudflare.com 
+[Mon 10/13/2025 17:27:54.16] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Mon 10/13/2025 17:27:54.18 
+==================== 
+[Mon 10/13/2025 17:28:35.13] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Mon 10/13/2025 17:28:35.15 
+==================== 
+[Mon 10/13/2025 17:29:05.16] Starting Docker Desktop... 
+[Mon 10/13/2025 17:29:22.40] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Mon 10/13/2025 17:29:22.42 
+==================== 
+[Mon 10/13/2025 17:29:52.12] Starting Docker Desktop... 
+[Mon 10/13/2025 17:31:26.07] Docker is ready. Starting containers... 
+Checking Docker Desktop... 
+[Mon 10/13/2025 17:31:26.36] Docker is ready. Starting containers... 
+Checking Docker Desktop... 
+Docker Desktop already running 
+Starting containers... 
+time="2025-10-13T17:31:27+07:00" level=warning msg="D:\\Odee-Link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+#1 [internal] load local bake definitions
+#1 reading from stdin 522B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 315B 0.1s done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/node:18-alpine
+#3 ...
+
+#4 [auth] library/node:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:18-alpine
+#3 DONE 5.8s
+
+#5 [internal] load .dockerignore
+#5 transferring context: 2B done
+#5 DONE 0.0s
+
+#6 [1/6] FROM docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e
+#6 resolve docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e 0.0s done
+#6 DONE 0.0s
+
+#7 [internal] load build context
+#7 transferring context: 1.80MB 1.5s done
+#7 DONE 1.7s
+
+#8 [2/6] WORKDIR /app
+#8 CACHED
+
+#9 [3/6] COPY package*.json ./
+#9 CACHED
+
+#10 [4/6] RUN npm ci --only=production
+#10 CACHED
+
+#11 [5/6] COPY . .
+#11 DONE 13.5s
+
+#12 [6/6] RUN npm run build
+#12 1.092 
+#12 1.092 > oloan-payment-system@0.1.0 build
+#12 1.092 > next build
+#12 1.092 
+#12 1.925  ⚠ Invalid next.config.js options detected: 
+#12 1.925  ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+#12 1.925  ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+#12 1.940 Attention: Next.js now collects completely anonymous telemetry regarding usage.
+#12 1.940 This information is used to shape Next.js' roadmap and prioritize features.
+#12 1.940 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+#12 1.940 https://nextjs.org/telemetry
+#12 1.940 
+#12 2.013   ▲ Next.js 14.2.5
+#12 2.013 
+#12 2.102    Creating an optimized production build ...
+#12 14.90  ✓ Compiled successfully
+#12 14.90    Linting and checking validity of types ...
+#12 18.19    Collecting page data ...
+#12 19.44    Generating static pages (0/6) ...
+#12 19.83    Generating static pages (1/6) 
+#12 19.83    Generating static pages (2/6) 
+#12 19.84    Generating static pages (4/6) 
+#12 19.85  ✓ Generating static pages (6/6)
+#12 20.35    Finalizing page optimization ...
+#12 20.35    Collecting build traces ...
+#12 25.08 
+#12 25.10 Route (app)                              Size     First Load JS
+#12 25.10 ┌ ○ /                                    6.95 kB          94 kB
+#12 25.10 ├ ○ /_not-found                          871 B          87.9 kB
+#12 25.10 ├ ○ /adminLoan                           1.96 kB          89 kB
+#12 25.10 ├ ƒ /api/bills                           0 B                0 B
+#12 25.10 ├ ƒ /api/bills/[id]                      0 B                0 B
+#12 25.10 └ ƒ /customer/[id]                       13.3 kB         100 kB
+#12 25.10 + First Load JS shared by all            87.1 kB
+#12 25.10   ├ chunks/23-0c40d6df9b62e9bb.js        31.5 kB
+#12 25.10   ├ chunks/fd9d1056-62aaf4b921c84028.js  53.6 kB
+#12 25.10   └ other shared chunks (total)          1.89 kB
+#12 25.10 
+#12 25.10 
+#12 25.10 ○  (Static)   prerendered as static content
+#12 25.10 ƒ  (Dynamic)  server-rendered on demand
+#12 25.10 
+#12 DONE 25.2s
+
+#13 exporting to image
+#13 exporting layers
+#13 exporting layers 11.5s done
+#13 exporting manifest sha256:504b3aca53fa7044ee7112a90294e5357b4253a16b856ec763698338915296a6 0.0s done
+#13 exporting config sha256:ae534e1755126eb8573f0367dbd439abe57e80e3b1068b1a5aaf653885f4500b 0.0s done
+#13 exporting attestation manifest sha256:2f61ce9122683de1d627a0792f3d764c7b2c0dc6bd04eb8bca66b2d505c37fbb 0.0s done
+#13 exporting manifest list sha256:7171436d4e68516926bcf6f343e0663794f69ed7105def342d72ecd6925c1977 0.0s done
+#13 naming to docker.io/library/oloanappweblocal-app:latest
+#13 naming to docker.io/library/oloanappweblocal-app:latest done
+#13 unpacking to docker.io/library/oloanappweblocal-app:latest
+#13 unpacking to docker.io/library/oloanappweblocal-app:latest 5.8s done
+#13 DONE 17.4s
+
+#14 resolving provenance for metadata file
+#14 DONE 0.0s
+ oloanappweblocal-app  Built
+ Container oloanappweblocal-postgres-1  Running
+ Container oloanappweblocal-app-1  Recreate
+ Container oloanappweblocal-app-1  Recreated
+ Container oloanappweblocal-app-1  Starting
+Error response from daemon: ports are not available: exposing port TCP 0.0.0.0:4000 -> 127.0.0.1:0: listen tcp 0.0.0.0:4000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+Waiting for application to be ready... 
+time="2025-10-13T17:32:49+07:00" level=warning msg="D:\\Odee-Link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+NAME                          IMAGE         COMMAND                  SERVICE    CREATED          STATUS              PORTS
+oloanappweblocal-postgres-1   postgres:15   "docker-entrypoint.s…"   postgres   47 minutes ago   Up About a minute   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
+[Mon 10/13/2025 17:32:49.33] Docker containers started successfully 
+[Mon 10/13/2025 17:32:49.35] Starting Cloudflare Tunnel... 
+[Mon 10/13/2025 17:32:49.37] OLoan Payment System startup complete! 
+[Mon 10/13/2025 17:32:49.37] Local: http://localhost:4000 
+[Mon 10/13/2025 17:32:49.39] Public: https://oloan-payment.trycloudflare.com 
+[Mon 10/13/2025 19:52:49.62] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Mon 10/13/2025 19:52:49.62 
+==================== 
+[Mon 10/13/2025 19:53:19.15] Starting Docker Desktop... 
+[Mon 10/13/2025 19:53:38.30] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Mon 10/13/2025 19:53:38.32 
+==================== 
+[Mon 10/13/2025 19:54:08.19] Starting Docker Desktop... 
+[Mon 10/13/2025 19:55:27.26] Docker is ready. Starting containers... 
+[Mon 10/13/2025 19:55:27.26] Docker is ready. Starting containers... 
+Checking Docker Desktop... 
+Docker Desktop already running 
+Starting containers... 
+time="2025-10-13T19:55:28+07:00" level=warning msg="D:\\Odee-Link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+#1 [internal] load local bake definitions
+#1 reading from stdin 522B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 315B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:18-alpine
+#3 ...
+
+#4 [auth] library/node:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:18-alpine
+#3 DONE 10.9s
+
+#5 [internal] load .dockerignore
+#5 transferring context: 2B done
+#5 DONE 0.0s
+
+#6 [1/6] FROM docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e
+#6 resolve docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e 0.0s done
+#6 DONE 0.0s
+
+#7 [internal] load build context
+#7 transferring context: 5.50MB 2.7s done
+#7 DONE 2.9s
+
+#8 [2/6] WORKDIR /app
+#8 CACHED
+
+#9 [3/6] COPY package*.json ./
+#9 CACHED
+
+#10 [4/6] RUN npm ci --only=production
+#10 CACHED
+
+#11 [5/6] COPY . .
+#11 DONE 1.0s
+
+#12 [6/6] RUN npm run build
+#12 0.577 
+#12 0.577 > oloan-payment-system@0.1.0 build
+#12 0.577 > next build
+#12 0.577 
+#12 1.313  ⚠ Invalid next.config.js options detected: 
+#12 1.313  ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+#12 1.313  ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+#12 1.325 Attention: Next.js now collects completely anonymous telemetry regarding usage.
+#12 1.325 This information is used to shape Next.js' roadmap and prioritize features.
+#12 1.325 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+#12 1.325 https://nextjs.org/telemetry
+#12 1.325 
+#12 1.395   ▲ Next.js 14.2.5
+#12 1.395 
+#12 1.476    Creating an optimized production build ...
+#12 13.18  ✓ Compiled successfully
+#12 13.18    Linting and checking validity of types ...
+#12 16.30    Collecting page data ...
+#12 17.43    Generating static pages (0/6) ...
+#12 17.93    Generating static pages (1/6) 
+#12 17.93    Generating static pages (2/6) 
+#12 17.94    Generating static pages (4/6) 
+#12 17.94  ✓ Generating static pages (6/6)
+#12 18.48    Finalizing page optimization ...
+#12 18.48    Collecting build traces ...
+#12 23.17 
+#12 23.19 Route (app)                              Size     First Load JS
+#12 23.19 ┌ ○ /                                    6.95 kB          94 kB
+#12 23.19 ├ ○ /_not-found                          871 B          87.9 kB
+#12 23.19 ├ ○ /adminLoan                           1.96 kB          89 kB
+#12 23.19 ├ ƒ /api/bills                           0 B                0 B
+#12 23.19 ├ ƒ /api/bills/[id]                      0 B                0 B
+#12 23.19 └ ƒ /customer/[id]                       13.3 kB         100 kB
+#12 23.19 + First Load JS shared by all            87.1 kB
+#12 23.19   ├ chunks/23-0c40d6df9b62e9bb.js        31.5 kB
+#12 23.19   ├ chunks/fd9d1056-62aaf4b921c84028.js  53.6 kB
+#12 23.19   └ other shared chunks (total)          1.89 kB
+#12 23.19 
+#12 23.19 
+#12 23.19 ○  (Static)   prerendered as static content
+#12 23.19 ƒ  (Dynamic)  server-rendered on demand
+#12 23.19 
+#12 DONE 23.4s
+
+#13 exporting to image
+#13 exporting layers
+#13 exporting layers 26.2s done
+#13 exporting manifest sha256:de4bec4a25a00eddc9ca6fcec94939ec29e4e2580d92d3e78c12e6bd43864110 0.0s done
+#13 exporting config sha256:2851c465dec9f58e0fb882ff109ee90238a7c213716200dab60d24add30abf67 0.0s done
+#13 exporting attestation manifest sha256:5a404d65ae0b0d09043e049631ef34e643f0e5a532de9b858c24e807236999d4
+#13 exporting attestation manifest sha256:5a404d65ae0b0d09043e049631ef34e643f0e5a532de9b858c24e807236999d4 0.1s done
+#13 exporting manifest list sha256:da136d43236a3365c7262c9c5243f8ed699f5ebbb52d4b7442b6eebbc5d7b90a 0.1s done
+#13 naming to docker.io/library/oloanappweblocal-app:latest
+#13 naming to docker.io/library/oloanappweblocal-app:latest done
+#13 unpacking to docker.io/library/oloanappweblocal-app:latest
+#13 unpacking to docker.io/library/oloanappweblocal-app:latest 7.7s done
+#13 DONE 34.2s
+
+#14 resolving provenance for metadata file
+#14 DONE 0.0s
+ oloanappweblocal-app  Built
+ Container oloanappweblocal-postgres-1  Running
+ Container oloanappweblocal-app-1  Recreate
+ Container oloanappweblocal-app-1  Recreated
+ Container oloanappweblocal-app-1  Starting
+Error response from daemon: ports are not available: exposing port TCP 0.0.0.0:4000 -> 127.0.0.1:0: listen tcp 0.0.0.0:4000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+Waiting for application to be ready... 
+time="2025-10-13T19:56:59+07:00" level=warning msg="D:\\Odee-Link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+NAME                          IMAGE         COMMAND                  SERVICE    CREATED       STATUS              PORTS
+oloanappweblocal-postgres-1   postgres:15   "docker-entrypoint.s…"   postgres   3 hours ago   Up About a minute   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
+[Mon 10/13/2025 19:56:59.35] Docker containers started successfully 
+[Mon 10/13/2025 19:56:59.37] Starting Cloudflare Tunnel... 
+[Mon 10/13/2025 19:56:59.40] OLoan Payment System startup complete! 
+[Mon 10/13/2025 19:56:59.40] Local: http://localhost:4000 
+[Mon 10/13/2025 19:56:59.42] Public: https://oloan-payment.trycloudflare.com 
+[Mon 10/13/2025 20:29:15.69] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Mon 10/13/2025 20:29:15.73 
+==================== 
+[Mon 10/13/2025 20:29:45.15] Starting Docker Desktop... 
+[Mon 10/13/2025 20:29:55.40] Docker is ready. Starting containers... 
+Checking Docker Desktop... 
+Docker Desktop already running 
+Starting containers... 
+time="2025-10-13T20:29:55+07:00" level=warning msg="D:\\Odee-Link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+#1 [internal] load local bake definitions
+#1 reading from stdin 522B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 315B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:18-alpine
+#3 ...
+
+#4 [auth] library/node:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:18-alpine
+#3 DONE 3.7s
+
+#5 [internal] load .dockerignore
+#5 transferring context: 2B done
+#5 DONE 0.0s
+
+#6 [1/6] FROM docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e
+#6 resolve docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e 0.0s done
+#6 DONE 0.0s
+
+#7 [internal] load build context
+#7 transferring context: 1.84MB 1.5s done
+#7 DONE 1.7s
+
+#8 [2/6] WORKDIR /app
+#8 CACHED
+
+#9 [3/6] COPY package*.json ./
+#9 CACHED
+
+#10 [4/6] RUN npm ci --only=production
+#10 CACHED
+
+#11 [5/6] COPY . .
+#11 DONE 17.1s
+
+#12 [6/6] RUN npm run build
+#12 0.635 
+#12 0.635 > oloan-payment-system@0.1.0 build
+#12 0.635 > next build
+#12 0.635 
+#12 1.432  ⚠ Invalid next.config.js options detected: 
+#12 1.433  ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+#12 1.433  ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+#12 1.444 Attention: Next.js now collects completely anonymous telemetry regarding usage.
+#12 1.444 This information is used to shape Next.js' roadmap and prioritize features.
+#12 1.444 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+#12 1.444 https://nextjs.org/telemetry
+#12 1.444 
+#12 1.522   ▲ Next.js 14.2.5
+#12 1.522 
+#12 1.610    Creating an optimized production build ...
+#12 22.87  ✓ Compiled successfully
+#12 22.87    Linting and checking validity of types ...
+#12 31.70    Collecting page data ...
+#12 34.59    Generating static pages (0/6) ...
+#12 35.50    Generating static pages (1/6) 
+#12 35.73    Generating static pages (2/6) 
+#12 35.75    Generating static pages (4/6) 
+#12 35.76  ✓ Generating static pages (6/6)
+#12 37.40    Finalizing page optimization ...
+#12 37.40    Collecting build traces ...
+#12 49.73 
+#12 49.75 Route (app)                              Size     First Load JS
+#12 49.75 ┌ ○ /                                    6.95 kB          94 kB
+#12 49.75 ├ ○ /_not-found                          871 B          87.9 kB
+#12 49.75 ├ ○ /adminLoan                           1.96 kB          89 kB
+#12 49.75 ├ ƒ /api/bills                           0 B                0 B
+#12 49.75 ├ ƒ /api/bills/[id]                      0 B                0 B
+#12 49.75 └ ƒ /customer/[id]                       13.3 kB         100 kB
+#12 49.75 + First Load JS shared by all            87.1 kB
+#12 49.75   ├ chunks/23-0c40d6df9b62e9bb.js        31.5 kB
+#12 49.75   ├ chunks/fd9d1056-62aaf4b921c84028.js  53.6 kB
+#12 49.75   └ other shared chunks (total)          1.89 kB
+#12 49.75 
+#12 49.75 
+#12 49.75 ○  (Static)   prerendered as static content
+#12 49.75 ƒ  (Dynamic)  server-rendered on demand
+#12 49.75 
+#12 DONE 50.1s
+
+#13 exporting to image
+#13 exporting layers
+#13 exporting layers 21.0s done
+#13 exporting manifest sha256:6828c7d693489e68602bd8ffa582c5e72463629afa93f27017496da399d78b80 0.0s done
+#13 exporting config sha256:92c21771f3fae8bd1483899923dd5db40e86eba5ab10b0f5b4d4bcc36d0147c6 0.0s done
+#13 exporting attestation manifest sha256:6e13157910383b6550bc7ed8a037c804dca5456274490ab814bacb58fba8deb9 0.0s done
+#13 exporting manifest list sha256:583b2231e0301edb5c1fb2e70a7838e60354de3177d46452e38d4bd1b4ac9ab0 0.0s done
+#13 naming to docker.io/library/oloanappweblocal-app:latest done
+#13 unpacking to docker.io/library/oloanappweblocal-app:latest
+#13 unpacking to docker.io/library/oloanappweblocal-app:latest 9.2s done
+#13 DONE 30.3s
+
+#14 resolving provenance for metadata file
+#14 DONE 0.0s
+ oloanappweblocal-app  Built
+ Network oloanappweblocal_default  Creating
+ Network oloanappweblocal_default  Created
+ Container oloanappweblocal-postgres-1  Creating
+ Container oloanappweblocal-postgres-1  Created
+ Container oloanappweblocal-app-1  Creating
+ Container oloanappweblocal-app-1  Created
+ Container oloanappweblocal-postgres-1  Starting
+ Container oloanappweblocal-postgres-1  Started
+ Container oloanappweblocal-app-1  Starting
+Error response from daemon: ports are not available: exposing port TCP 0.0.0.0:4000 -> 127.0.0.1:0: listen tcp 0.0.0.0:4000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+Waiting for application to be ready... 
+time="2025-10-13T20:31:56+07:00" level=warning msg="D:\\Odee-Link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+NAME                          IMAGE         COMMAND                  SERVICE    CREATED         STATUS          PORTS
+oloanappweblocal-postgres-1   postgres:15   "docker-entrypoint.s…"   postgres   5 seconds ago   Up 14 seconds   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
+[Mon 10/13/2025 20:31:56.38] Docker containers started successfully 
+[Mon 10/13/2025 20:31:56.40] Starting Cloudflare Tunnel... 
+[Mon 10/13/2025 20:31:56.43] OLoan Payment System startup complete! 
+[Mon 10/13/2025 20:31:56.43] Local: http://localhost:4000 
+[Mon 10/13/2025 20:31:56.45] Public: https://oloan-payment.trycloudflare.com 
+[Mon 10/13/2025 22:22:51.18] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Mon 10/13/2025 22:22:51.20 
+==================== 
+[Mon 10/13/2025 22:23:30.66] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Mon 10/13/2025 22:23:30.68 
+==================== 
+[Mon 10/13/2025 22:24:00.15] Starting Docker Desktop... 
+[Mon 10/13/2025 22:24:31.06] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Mon 10/13/2025 22:24:31.09 
+==================== 
+[Mon 10/13/2025 22:25:01.21] Starting Docker Desktop... 
+[Mon 10/13/2025 22:25:26.05] Docker is ready. Starting containers... 
+[Mon 10/13/2025 22:25:26.05] Docker is ready. Starting containers... 
+Checking Docker Desktop... 
+Docker Desktop already running 
+Starting containers... 
+time="2025-10-13T22:25:28+07:00" level=warning msg="D:\\bee-link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+#1 [internal] load local bake definitions
+#1 reading from stdin 527B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 315B 0.0s done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/node:18-alpine
+#3 DONE 8.1s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.1s
+
+#5 [1/6] FROM docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e
+#5 resolve docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e 0.0s done
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 41.36MB 4.8s
+#6 transferring context: 74.65MB 9.8s
+#6 transferring context: 114.94MB 14.8s
+#6 transferring context: 150.32MB 19.9s
+#6 transferring context: 193.07MB 24.9s
+#6 transferring context: 208.89MB 30.0s
+#6 transferring context: 212.05MB 35.1s
+#6 transferring context: 214.10MB 40.1s
+#6 transferring context: 217.47MB 45.2s
+#6 transferring context: 221.54MB 50.2s
+#6 transferring context: 224.96MB 55.3s
+#6 transferring context: 229.23MB 60.3s
+#6 transferring context: 235.63MB 68.5s
+#6 transferring context: 238.24MB 73.5s
+#6 transferring context: 266.49MB 78.6s
+#6 transferring context: 292.28MB 83.7s
+#6 transferring context: 302.09MB 88.8s
+#6 transferring context: 304.90MB 93.9s
+#6 transferring context: 308.06MB 98.9s
+#6 transferring context: 309.53MB 103.9s
+#6 transferring context: 317.48MB 108.9s
+#6 transferring context: 320.56MB 113.9s
+#6 transferring context: 327.57MB 119.0s
+#6 transferring context: 336.05MB 124.1s
+#6 transferring context: 362.11MB 129.1s
+#6 transferring context: 362.52MB 129.5s done
+#6 DONE 129.7s
+
+#7 [2/6] WORKDIR /app
+#7 CACHED
+
+#8 [3/6] COPY package*.json ./
+#8 CACHED
+
+#9 [4/6] RUN npm ci --only=production
+#9 CACHED
+
+#10 [5/6] COPY . .
+#10 DONE 11.6s
+
+#11 [6/6] RUN npm run build
+#11 1.373 
+#11 1.373 > oloan-payment-system@0.1.0 build
+#11 1.373 > next build
+#11 1.373 
+#11 2.664  ⚠ Invalid next.config.js options detected: 
+#11 2.665  ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+#11 2.665  ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+#11 2.685 Attention: Next.js now collects completely anonymous telemetry regarding usage.
+#11 2.685 This information is used to shape Next.js' roadmap and prioritize features.
+#11 2.685 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+#11 2.685 https://nextjs.org/telemetry
+#11 2.685 
+#11 2.816   ▲ Next.js 14.2.5
+#11 2.817 
+#11 2.976    Creating an optimized production build ...
+#11 19.71  ✓ Compiled successfully
+#11 19.71    Linting and checking validity of types ...
+#11 23.73    Collecting page data ...
+#11 11.95    Generating static pages (0/6) ...
+#11 27.53    Generating static pages (1/6) 
+#11 27.53    Generating static pages (2/6) 
+#11 27.53    Generating static pages (4/6) 
+#11 27.68  ✓ Generating static pages (6/6)
+#11 29.04    Finalizing page optimization ...
+#11 29.04    Collecting build traces ...
+#11 35.76 
+#11 35.77 Route (app)                              Size     First Load JS
+#11 35.77 ┌ ○ /                                    6.95 kB          94 kB
+#11 35.77 ├ ○ /_not-found                          871 B          87.9 kB
+#11 35.77 ├ ○ /adminLoan                           1.96 kB          89 kB
+#11 35.77 ├ ƒ /api/bills                           0 B                0 B
+#11 35.77 ├ ƒ /api/bills/[id]                      0 B                0 B
+#11 35.77 └ ƒ /customer/[id]                       13.3 kB         100 kB
+#11 35.77 + First Load JS shared by all            87.1 kB
+#11 35.77   ├ chunks/23-0c40d6df9b62e9bb.js        31.5 kB
+#11 35.77   ├ chunks/fd9d1056-62aaf4b921c84028.js  53.6 kB
+#11 35.77   └ other shared chunks (total)          1.89 kB
+#11 35.77 
+#11 35.77 
+#11 35.77 ○  (Static)   prerendered as static content
+#11 35.77 ƒ  (Dynamic)  server-rendered on demand
+#11 35.77 
+#11 DONE 36.2s
+
+#12 exporting to image
+#12 exporting layers
+#12 exporting layers 16.4s done
+#12 exporting manifest sha256:ec09be7cc22dd3e02af749502697c2f985ed44269e92035ffcacf3492a218940 0.0s done
+#12 exporting config sha256:9a4a3be637c028f7f25088a46738dfef8f1e3dc5f8d1fd750fa0523b43664b4e 0.2s done
+#12 exporting attestation manifest sha256:88203a1bf6c7d62c5c1f12672d0922cbe0be67a8abc0327be5bfb6d1e3cb3b62 0.0s done
+#12 exporting manifest list sha256:9aebbdb13999c006fdc570cb66dc3e10ca1e3193b307f8b425e96a098fbd77c7 0.0s done
+#12 naming to docker.io/library/oloanapp_v2:latest done
+#12 unpacking to docker.io/library/oloanapp_v2:latest
+#12 unpacking to docker.io/library/oloanapp_v2:latest 7.6s done
+#12 DONE 24.4s
+
+#13 resolving provenance for metadata file
+#13 DONE 24.9s
+ oloanapp_v2:latest  Built
+time="2025-10-13T22:29:55+07:00" level=warning msg="Found orphan containers ([oloanappweblocal-app-1 oloanappweblocal-postgres-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container postgres_v2  Running
+ Container app_v2  Recreate
+ Container app_v2  Recreated
+ Container app_v2  Starting
+ Container app_v2  Started
+Waiting for application to be ready... 
+time="2025-10-13T22:30:16+07:00" level=warning msg="D:\\bee-link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+NAME                          IMAGE                COMMAND                  SERVICE       CREATED                  STATUS         PORTS
+app_v2                        oloanapp_v2:latest   "docker-entrypoint.s…"   app_v2        Less than a second ago   Up 3 seconds   0.0.0.0:4000->4000/tcp, [::]:4000->4000/tcp
+oloanappweblocal-postgres-1   postgres:15          "docker-entrypoint.s…"   postgres      2 hours ago              Up 4 minutes   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
+postgres_v2                   postgres:15          "docker-entrypoint.s…"   postgres_v2   37 minutes ago           Up 4 minutes   0.0.0.0:5433->5432/tcp, [::]:5433->5432/tcp
+[Mon 10/13/2025 22:30:16.92] Docker containers started successfully 
+[Mon 10/13/2025 22:30:16.94] Starting Cloudflare Tunnel... 
+[Mon 10/13/2025 22:30:16.96] OLoan Payment System startup complete! 
+[Mon 10/13/2025 22:30:16.96] Local: http://localhost:4000 
+[Mon 10/13/2025 22:30:16.97] Public: https://oloan-payment.trycloudflare.com 
+[Mon 10/13/2025 22:36:11.99] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Mon 10/13/2025 22:36:12.21 
+==================== 
+[Mon 10/13/2025 22:36:42.19] Starting Docker Desktop... 
+[Mon 10/13/2025 22:36:52.69] Docker is ready. Starting containers... 
+Checking Docker Desktop... 
+Docker Desktop already running 
+Starting containers... 
+time="2025-10-13T22:36:53+07:00" level=warning msg="D:\\bee-link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ postgres_v2 Pulling 
+error getting credentials - err: exit status 1, out: `A specified logon session does not exist. It may already have been terminated.`
+Waiting for application to be ready... 
+time="2025-10-13T22:37:08+07:00" level=warning msg="D:\\bee-link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+NAME      IMAGE     COMMAND   SERVICE   CREATED   STATUS    PORTS
+[Mon 10/13/2025 22:37:08.21] Docker containers started successfully 
+[Mon 10/13/2025 22:37:08.23] Starting Cloudflare Tunnel... 
+[Mon 10/13/2025 22:37:08.25] OLoan Payment System startup complete! 
+[Mon 10/13/2025 22:37:08.25] Local: http://localhost:4000 
+[Mon 10/13/2025 22:37:08.26] Public: https://oloan-payment.trycloudflare.com 
+[Mon 10/13/2025 22:42:51.83] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Mon 10/13/2025 22:42:51.87 
+==================== 
+[Mon 10/13/2025 22:43:21.12] Starting Docker Desktop... 
+[Mon 10/13/2025 22:43:31.48] Docker is ready. Starting containers... 
+Checking Docker Desktop... 
+Docker Desktop already running 
+Starting containers... 
+time="2025-10-13T22:43:32+07:00" level=warning msg="D:\\bee-link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+#1 [internal] load local bake definitions
+#1 reading from stdin 527B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 315B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:18-alpine
+#3 ERROR: error getting credentials - err: exit status 1, out: `A specified logon session does not exist. It may already have been terminated.`
+------
+ > [internal] load metadata for docker.io/library/node:18-alpine:
+------
+Dockerfile:1
+
+--------------------
+
+   1 | >>> FROM node:18-alpine
+
+   2 |     
+
+   3 |     WORKDIR /app
+
+--------------------
+
+failed to solve: error getting credentials - err: exit status 1, out: `A specified logon session does not exist. It may already have been terminated.`
+
+
+
+View build details: docker-desktop://dashboard/build/default/default/i8vad7dmpdvvduzlaoqqmivdg
+
+Waiting for application to be ready... 
+time="2025-10-13T22:43:48+07:00" level=warning msg="D:\\bee-link\\oloanappweblocal\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+NAME      IMAGE     COMMAND   SERVICE   CREATED   STATUS    PORTS
+[Mon 10/13/2025 22:43:48.22] Docker containers started successfully 
+[Mon 10/13/2025 22:43:48.23] Starting Cloudflare Tunnel... 
+[Mon 10/13/2025 22:43:48.25] OLoan Payment System startup complete! 
+[Mon 10/13/2025 22:43:48.26] Local: http://localhost:4000 
+[Mon 10/13/2025 22:43:48.28] Public: https://oloan-payment.trycloudflare.com 
+[Mon 10/13/2025 22:51:30.59] Starting OLoan Payment System (Auto-Startup)... 
+==================== 
+Starting at Mon 10/13/2025 22:51:30.65 
+==================== 
+[Mon 10/13/2025 22:52:00.20] Starting Docker Desktop... 
+[Mon 10/13/2025 22:52:10.34] Docker is ready. Starting containers... 

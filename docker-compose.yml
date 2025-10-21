@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  postgres_v2:
+    image: postgres:15
+    container_name: postgres_v2
+    environment:
+      POSTGRES_DB: oloan_db_b
+      POSTGRES_USER: oloan_user
+      POSTGRES_PASSWORD: oloan_password
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    restart: unless-stopped
+    networks:
+      - oloan_network_v2
+
+  app_v2:
+    build: .
+    image: oloanapp_v2:latest
+    container_name: app_v2
+    ports:
+      - "4000:4000"
+    environment:
+      - DATABASE_URL=postgresql://oloan_user:oloan_password@postgres_v2:5432/oloan_db_b
+      - NODE_ENV=production
+    depends_on:
+      - postgres_v2
+    restart: unless-stopped
+    networks:
+      - oloan_network_v2
+
+volumes:
+  postgres_data:
+
+networks:
+  oloan_network_v2:
+    name: oloan_network_v2
