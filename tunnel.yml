@@ -1,0 +1,15 @@
+# Cloudflare Tunnel Configuration
+# Replace YOUR_TUNNEL_ID with actual tunnel ID from: cloudflared tunnel create oloan-payment
+
+tunnel: 194e2f58-902a-4241-ac22-62f2e78919e6
+credentials-file:  C:\Users\locky\.cloudflared\194e2f58-902a-4241-ac22-62f2e78919e6.json
+
+ingress:
+  - service: http://localhost:4000
+
+# Optional: Configure additional settings
+# warp-routing:
+#   enabled: true
+
+# Optional: Configure logging
+# loglevel: info
